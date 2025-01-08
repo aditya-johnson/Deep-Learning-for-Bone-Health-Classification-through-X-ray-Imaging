@@ -4,7 +4,6 @@
 2. [Requirements](#req)
 3. [Instructions](#inst)
 4. [Contact](#contact)
-5. [Thanks](#thanks)
 
 # Deep Learning for Bone Health Classification through X-ray Imaging
 
@@ -113,6 +112,3 @@ Should you encounter any difficulties, do not hesitate to reach out to me via th
 
 Please feel free to reach out with any comments, questions, reports, or suggestions via email at adityajohnsonstanley1709@gmail.com.
 <a name="thanks"></a>
-## 5. Thanks
-
-Special thanks to my advisors [Mylene C. Q. Farias](http://www.ene.unb.br/mylene/), [André Ferreira Leite](http://lattes.cnpq.br/7275660736054053), and [Nilce Santos de Melo](http://lattes.cnpq.br/4611919012909264). Also, a special thanks to my colleague [Raiza Querrer Peixoto](https://www.escavador.com/sobre/5950023/raiza-querrer-soares).
