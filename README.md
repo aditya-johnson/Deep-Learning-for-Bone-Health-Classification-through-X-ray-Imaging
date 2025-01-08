@@ -11,11 +11,8 @@
 <a name="desc"></a>
 ## 1. Project Description and Status
 
-This project is a key component of GigaSistêmica, a collaborative initiative between GigaCandanga and the University of Brasília, dedicated to advancing diagnostic and predictive capabilities for systemic diseases using dental radiographs. The primary goal of this project is to develop a neural network-driven system tailored to classify patients' bone health and detect osteoporosis, leveraging panoramic radiographic images. The aim is to expedite diagnostic and treatment pathways for patients, with a particular focus on enhancing efficiency within the Brazilian public health system.
+This project is dedicated to advancing diagnostic and predictive capabilities for systemic diseases using dental radiographs. The primary goal of this project is to develop a neural network-driven system tailored to classify patients' bone health and detect osteoporosis, leveraging panoramic radiographic images. The aim is to expedite diagnostic and treatment pathways for patients, with a particular focus on enhancing efficiency within the Brazilian public health system.
 
-This repository is part of an academically published work, but its development is ongoing. It provides essential components for training various neural networks, conducting network evaluations, and includes tools for data pre-processing and Grad-CAM visualization. If you use this work, please cite:
-
-- Dias, B. S. S., Querrer, R., Figueiredo, P. T., Leite, A. F., de Melo, N. S., Costa, L. R., Caetano, M. F., & Farias, M. C. Q. (2025). *Osteoporosis screening: Leveraging EfficientNet with complete and cropped facial panoramic radiography imaging*. **Biomedical Signal Processing and Control**, *100*, 107031. [https://doi.org/10.1016/j.bspc.2024.107031](https://doi.org/10.1016/j.bspc.2024.107031)
 
 <a name="req"></a>
 ## 2. Requirements
@@ -62,7 +59,7 @@ If you intend to utilize these scripts for alternative applications, adjust the 
 
 Grad-CAM is an interpretability technique in convolutional neural networks (CNNs) that highlights important regions of an image for class prediction. This allows understanding how the network "looks" at the image and which areas influence the classification decision the most. This technique is useful for explaining model decisions in computer vision tasks as it backpropagates gradients from the class of interest to the convolutional layers, weighting the activations of these layers, and producing an activation map that highlights the discriminative regions of the image.
 
-The corresponding codes are available in the `Heatmaps` folder of this repository. They were developed based on the code provided in the [repository](https://github.com/sunnynevarekar/pytorch-saliency-maps/tree/master) by authors Karen Simonyan, Andrea Vedaldi, and Andrew Zisserman, adapted to the needs of this project.
+The corresponding codes are available in the `Heatmaps` folder of this repository. They were developed based on the code provided in the [repository](https://github.com/sunnynevarekar/pytorch-saliency-maps/tree/master).
 
 The codes operate for networks trained with both complete images and those trained only with the square crop of radiographs. To use them, it is necessary to provide the path of the trained model - in this specific case, EfficientNets were used, but they are likely to work with most convolutional neural networks (CNNs). Additionally, it is necessary to provide the path of the folder for the class you want to test. The code will run the network on 20 random images from that class, returning the classified diagnosis and generating a Grad-CAM that shows the areas of the image that the network considered most relevant for classification. An overlay with the original image is provided to facilitate visualization.
 
@@ -114,8 +111,7 @@ Should you encounter any difficulties, do not hesitate to reach out to me via th
 <a name="contact"></a>
 ## 4. Contact
 
-Please feel free to reach out with any comments, questions, reports, or suggestions via email at brunoscholles98@gmail.com. Additionally, you can contact me via WhatsApp at +351 913 686 499.
-
+Please feel free to reach out with any comments, questions, reports, or suggestions via email at adityajohnsonstanley1709@gmail.com.
 <a name="thanks"></a>
 ## 5. Thanks
 
